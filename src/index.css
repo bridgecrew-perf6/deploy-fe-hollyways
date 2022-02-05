@@ -1,0 +1,389 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  /* font-family: 'Oswald', sans-serif; */
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #C32424;
+  align-items: center;
+  height: 90px;
+}
+
+
+.dropdown a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.dropdown image{
+  border: none;
+}
+
+.btn-outline-danger {
+  color: #dc354600;
+  border-color: #dc354600;
+  background-color: rgba(0, 0, 0, 0);
+  border: none !important;
+
+}
+
+.dropdown-toggle::after {
+  display:none;
+  background-color: rgba(0, 0, 0, 0);
+  visibility:hidden;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.logo{
+  height: 40px;
+  width: 40px;
+  padding: 0 30px;
+  margin: 0 50px;
+}
+
+.login, .register{
+  text-decoration: none;
+}
+
+.dropdown{
+  margin: 25px 0;
+}
+
+.login button{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #C32424;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.register Button{
+  margin-right: 60px;
+  padding: 8px 30px;
+  border-radius: 20px !important;
+  background-color: white;
+  color: #C32424;
+  border: none;
+}
+
+.main-hero{
+  padding: 100px 0 150px 0;
+  background-color: #C32424;
+  position: relative;
+  margin: 0;
+}
+.hero{
+  display: flex;
+  padding-left: 100px;
+}
+
+.hero h1{
+  color: white;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  z-index: 1;
+}
+
+.hero p{
+  color: #E8E8E8;
+  font-size: medium;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.hero .description{
+  margin-bottom: 50px;
+}
+
+.hero .btn{
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: #C32424;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 550;
+}
+
+.hero-image img{
+  height: 650px;
+  font-size: 1em;
+  /* margin-right: 100px; */
+}
+.hero-image{
+  position: absolute;
+  z-index: 2;
+  margin: 20px -225px -50px 0;
+}
+
+.main-about{
+  margin: 100px 0;
+}
+
+.about h1{
+  color: black;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.about .text{
+  position: relative;
+  z-index: -1;
+  margin: 40px;
+}
+
+.about .image{
+  position: absolute;
+  z-index: 1;
+  margin: -170px 0 0 -115px;
+
+}
+
+.list-donation{
+  margin: 200px 0;
+}
+
+.list-donation .btn{
+  /* padding: 5px 20px; */
+  border-radius: 10px;
+  background-color:#C32424;
+  color: white;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 550;
+}
+
+.list-donation h3{
+  color: #C32424;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Form Fund Page */
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: #C32424;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: 400 !important;
+}
+
+/* Modal */
+.modal {
+  display:flex !important;
+}
+
+.modal-login .modal-dialog,
+.modal-register .modal-dialog{
+  width: 30%;
+}
+
+.donate-modal .modal-dialog{
+  width: 40%;;
+}
+
+/* View Fund Page */
+
+.view-fund .main{
+  margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.view-fund .main h3{
+  font-size: 50px;
+  font-weight: 590;
+}
+
+.view-fund h5{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.view-fund h5{
+  margin-right: 10px;
+}
+
+.view-fund .money-start h5{
+  color:#C32424;
+}
+
+.view-fund .money-end h5{
+  color:#616161;
+}
+
+.view-fund .progress-count p,
+.view-fund .description p
+{
+  margin: auto;
+  font-size: 20px;
+  color: #616161;
+  align-items: baseline;
+}
+
+.view-fund .desc p{
+  margin: auto;
+  font-size: 1em;
+  color: #616161;
+  align-items: baseline;
+  font-weight: 300;
+}
+
+.view-fund .description{
+  margin: 0 50px;
+}
+
+.view-fund .progress-bar {
+  border-radius: 20px;
+}
+
+.list-donate,
+.list-not-aproved {
+  font-family: 'Oswald', sans-serif;
+}
+/* Register Modal */
+.button-click .button{
+  margin: 0 80px !important;
+  text-decoration: none;
+}
+
+.form-register {
+  font-family: 'Oswald', sans-serif;
+}
+
+.form-control {
+  background-color: #d2d2d290!important;
+  border: #d2d2d2 !important;
+}
+
+/* Raise Fund Page */
+
+.raise-fund {
+  font-family: 'Oswald', sans-serif;
+}
+
+.raise-fund h3{
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.card-raise-fund .title{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.card-raise-fund .desc{
+  font-size: 15px;
+  color: #616161;
+  font-weight: 200;
+}
+
+.raise-fund .money{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* profile page */
+.profile{
+    font-family: 'Oswald', sans-serif;
+}
+
+.profile h3{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.profile h4{
+  font-size: 25px;
+  font-weight: 400;
+  color:#C32424;
+}
+
+.history .title-card{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.history .btn{
+  padding: 0 !important;
+}
+
+.history .total{
+  color: #C32424;
+}
+
+.history .button{
+  background-color: #00ff842f;
+  color: #00FF47;
+  padding: 3px 20px !important;
+}
+
+/* card style */
+
+.card-style {
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-style h4,
+.form-fund .title
+{
+  font-weight: 500;
+  font-size: 25px;
+  color: black !important;
+}
+
+.card-style .description p{
+  font-weight: 400;
+  font-size: 15px;
+  color: #616161;
+
+}
+.card-style .progress-bar {
+  border-radius: 20px;
+}
+
+/* Form Fund PAGE */
+.form-fund{
+  font-family: 'Oswald', sans-serif;
+}
+
+.form-fund h2{
+  font-weight: 600;
+  font-size: 35px;
+  color: black !important;
+}
+
+.form-fund button{
+  border: none;
+  border-radius: 15px !important;
+}
+
+.button-card-style .button{
+  /* padding: 0 20px; */
+  background-color: #C32424 !important;
+}
