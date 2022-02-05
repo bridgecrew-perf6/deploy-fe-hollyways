@@ -2,7 +2,8 @@ import axios from 'axios'
 
 // Create base URL API
 export const API = axios.create({
-    baseURL: 'http://localhost:5000/api/v1/'
+    baseURL:  process.env.SERVER_URL ||  "https://hollywayshandi.herokuapp.com/api/v1/" || 'http://localhost:5000/api/v1/'
+
 })
 
 // Set Authorization Token Header
